@@ -1,8 +1,9 @@
 const btn = document.querySelector(".btn-translate");
+const txtArea = document.querySelector("#textarea");
+
+btn.addEventListener("click",() => {
+    console.log(txtArea.value);
+});
 
 
-const func = () =>{
-    console.log("Clicked!!");
-}
 
-btn.addEventListener("click",func);
