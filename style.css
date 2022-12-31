@@ -1,0 +1,65 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #517ea2;
+}
+
+/** Typography **/
+
+body{
+    /* font-family: ; */
+    text-align: center;
+}
+
+
+
+/** header **/
+header{
+    background-color: #f2c94c;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* button */
+.btn-translate{
+    background-color: #897460;
+    color: #302b27;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+.btn-translate:hover{
+    cursor: pointer;
+    background-color: #302b27;
+    color: #897460;
+}
+
+.output-container{
+    background-color: white;
+    height: 3.5rem;
+    width: 54%;
+    margin: 0 auto;
+}
+
+
+
+/** footer **/
+footer{
+    background-color: #f2c94c;
+    padding: 1.5rem;
+    margin-top: 1.75rem;
+}
